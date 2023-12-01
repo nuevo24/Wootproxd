@@ -4,7 +4,7 @@ try {
 //await m.reply(`╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」\n│➯ *(♦️)*PON EL TEXTO DEL AUDIO QUE QUIERES REPRODUCIR*\n︎╰───────────────╯\n\n\n╭「➻❥𝙷𝙰𝙳𝙴𝚂-𝙱𝙾𝚃-𝙾𝙼𝙴𝙶𝙰➻❥」\n│➯ *(♦️)*PUT THE TEXT OF THE AUDIO YOU WANT TO PLAY*\n︎╰───────────────╯`)
 let pp = imagen6
 //let vn = './Plugins/Audios/menu.mp3'
-let img = await(await fetch('https://imgur.com/a/Z2X0lCN.jpg')).buffer()
+let img = await(await fetch('https://imgur.com/gallery/yyd4uO3')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'es'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -23,7 +23,7 @@ let str = `╭「𝙿𝚁𝙴𝙲𝙸𝙾𝚂 𝙳𝙴 𝙰𝙻𝙴𝙸𝚉𝙽�
 │🍁 **𝙴𝚂𝚃𝙴 𝙴𝚂 𝙼𝙸 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙲𝙾𝙽𝚂𝚄𝙻𝚃𝙰𝚂:51992621601*
 │🍁 *𝚃𝙴𝙽𝙶𝙾 𝙳𝙸𝙵𝙴𝚁𝙴𝙽𝚃𝙴𝚂 𝙿𝚁𝙴𝙲𝙸𝙾𝚂 𝙿𝙰𝚁𝙰 𝙼𝙸𝚂 𝙱𝙾𝚃𝙲𝙸𝚃𝙾𝚂
 ︎╰───────────────╯
-🍁᭢━━━━━ALEIZN-MD━━━━᭥🍁᭢
+🍁᭢━━━━━HITZOR-MD━━━━᭥🍁᭢
 ╭「𝐏𝐀𝐐𝐔𝐄𝐓𝐄 𝐃𝐄 𝐁𝐎𝐓𝐒 𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐀𝐃𝐎𝐑」
 │-𝙿𝙰𝚁𝙰 𝙴𝚂𝚃𝙴 𝙱𝙾𝚃 𝚃𝙴𝙽𝙶𝙾 𝙴𝙻 𝙱𝙾𝚃 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃𝙴- 𝙱𝙾𝚃 𝙿𝙴𝚁𝚂𝙾𝙽𝙰𝙻𝙸𝚉𝙰𝙳𝙾- 𝙱𝙾𝚃 𝙿𝚁𝙾𝙿𝙸𝙾𝚂-𝙱𝙾𝚃 𝙿𝙻𝚄𝚂
 │😼𝙱𝙾𝚃 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃𝙴:  Este bot lleva una personalizacion del creador es permanente y no tiene limite de grupos y te enseño a programarlo y aque tu mismo lo pongas en un numero
