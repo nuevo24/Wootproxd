@@ -13,7 +13,7 @@ global.db.data.users[m.sender].exp += this.tekateki[id][2]
 m.reply(`*UY YA,RESPUESTA CORRECTA*\n+${this.tekateki[id][2]} Exp`)
 clearTimeout(this.tekateki[id][3])
 delete this.tekateki[id]
-} else if (similarity(m.text.toLowerCase(), json.response.toLowerCase().trim()) >= threshold) m.reply(`Casi lo logras!`)
+} else if (similarity(m.text.toLowerCase(), json.response.toLowerCase().trim()) >= threshold) m.reply(`Casi lo logras cauza!`)
 else m.reply(' RESPUESTA INCORRECTA!')}
 return !0
 }
