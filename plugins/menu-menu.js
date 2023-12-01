@@ -19,7 +19,7 @@ let readMore = more.repeat(850)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 var doc = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var document = doc[Math.floor(Math.random() * doc.length)]    
-let str = `╭「𝐋𝐚𝐯𝐢𝐞𝐣𝐚𝐬𝐜𝐨𝐨𝐥 𝟐𝟒𝐤」
+let str = `╭「Team Woot」
 │➯ *𝙷𝙾𝙻𝙰,➟${taguser}
 │➯ *𝙲𝚁𝙴𝙰𝙳𝙾𝚁:Hitzor
 │➯ *𝙸𝙽𝙵𝙾: Wa.me/51978067200
@@ -39,8 +39,8 @@ let str = `╭「𝐋𝐚𝐯𝐢𝐞𝐣𝐚𝐬𝐜𝐨𝐨𝐥 𝟐𝟒𝐤�
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「➻❥ *QUIERES TENER UN BOT TU TAMBIEN?* ➻❥」
-│➯ *.aleprecios*
-│➯ *.aleinfo*
+│➯ *.hitprecios*
+│➯ *.hitinfo*
 ╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭─「➻❥ *gana y compara* ➻❥」
