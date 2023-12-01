@@ -5,7 +5,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 conn.tekateki = conn.tekateki ? conn.tekateki : {}
 let id = m.chat
 if (id in conn.tekateki) {
-conn.reply(m.chat, 'Todavia hay un acertijo sin responder pe\n There are still unanswered riddles in this chat', conn.tekateki[id][0])
+conn.reply(m.chat, 'Todavia hay un acertijo sin responder\n There are still unanswered riddles in this chat', conn.tekateki[id][0])
 throw false
 }
 let tekateki = JSON.parse(fs.readFileSync(`./lib/acertijo.json`))
@@ -21,7 +21,7 @@ conn.tekateki[id] = [
 await conn.reply(m.chat, caption, m), json, 
 poin,
 setTimeout(async () => {
-if (conn.tekateki[id]) await conn.reply(m.chat, `Se acabó el tiempo!fue pe!!\n*Respuesta:* ${json.response}`, conn.tekateki[id][0])
+if (conn.tekateki[id]) await conn.reply(m.chat, `Se acabó el tiempo!\n*Respuesta:* ${json.response}`, conn.tekateki[id][0])
 delete conn.tekateki[id]
 }, timeout)]}
 handler.help = ['acertijo']
